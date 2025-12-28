@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul{
+    margin-right: 80px;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+#btn{
+    width: 150px;
+}
+#btn2{
+    width: 150px;
+    background-color: #fff;
+    color: #4AAB3D;
+}
+.btn{
+    background-color:  #4AAB3D;
+}
+
+/* .navbar .iconn p i{
+    color: #4AAB3D;
+} */
+.hero{
+    padding-top: 80px;
+    background: url(imgs/img2.jpg);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-size: cover;
+    background-repeat: no-repeat;
+    border-image:fill 1 linear-gradient(hsl(160 100% 12% / .6));
+    
+}
+
+.overlay{
+    
+    border-image: linear-gradient(hsl(240, 100%, 50%,   0.3)), hsl(0, 100%, 50% / 3) fill 1;
+    min-height: 90vh;
+}
+
+#learn img{
+    border-radius: 20px;
+}
+/* #learn .card{
+    box-shadow: #fff;
+    border-radius: 20px;
+} */
+
+.card{
+    box-shadow: 0px 5px 15px 0px rgba(128, 112, 22, 0.2);
+    border-radius: 15px;
+}
+.card h4,p,.btn{
+    margin-left: 20px;
+}
+
+#features .card i{
+    margin-left: 35px;
+    color: rgb(13, 192, 13);
+}
+
+#features{
+    background-color: rgb(244, 247, 249);
+}
+
+#next{
+    background: url(imgs/img3.jpg);
+     min-height: 55vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+       padding-top: 80px;
+       display: flex;
+       justify-content: center;
+      align-items: center;
+     flex-direction: row;
+     margin: auto;
+      border-image:fill 1 linear-gradient(hsl(160 100% 12% / .5));
+}
+#next .container{
+     display: flex;
+    justify-content: center;
+
+}
+.card-{
+     box-shadow: 0px 5px 15px 0px rgba(128, 112, 22, 0.2);
+    border-radius: 15px;
+    background-color: #222;
+    flex-direction: column;
+    width: 500px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 70%;
+    
+}
+
+#feat img{
+    width: 415px;
+    height: 250px;
+    border-radius: 10px;
+}
+#nextt .container{
+    border-radius: 15px;
+}
+
+
+.social-icons{
+     display: flex; 
+    gap: 5px;
+     justify-content: start; 
+  align-items:start; 
+  
+}
+
+.social-icons a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;         
+  height: 30px;
+  border-radius: 50%;  
+  background-color: #4AAB3D;
+  color: #fff;       
+  font-size: 20px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+
+.social-icons a:hover {
+background-color: #fff;
+  color: #4AAB3D;
+}
+
+
+.footer{
+    background: url(imgs/img5.jpg);
+     min-height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+      border-image:fill 1 linear-gradient(hsl(160 100% 12% / .5));
+          
+}
+.cardd h4{
+color: #72E485;
+}
+#nexttt .card i{
+    color: #fff;
+    background: #4AAB3D;
+    margin-left: 35px;
+    padding: 5px 7px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#btnn{
+padding: 6px 50px;
+width: 200px;
+margin: auto;
+}
+header ul .nav-item a:hover{
+   border-radius: 14px;
+}
+#featur{
+    background-image: url(imgs/img14.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+      border-image:fill 1 linear-gradient(hsl(160 100% 12% / .7));
+     
+}
+.footer{
+    display: flex;
+}
+#foot .footer .container{
+margin-top: 60px;
+}
+
+
+
+@media(max-width:576px){
+#feat .container img{
+    width: 100%;
+}
+
+header .container-fluid{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+ #feat .container img{
+    width: 100%;
+}
+header .container-fluid{
+        display: none;
+    }
+}
+@media(max-width:900px){
+#feat .container img{
+    width: 100%;
+    }
+ header .container-fluid{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    #feat .container img{
+    width: 100%;
+}
+}
+@media(max-width:1200px){
+#feat .container img{
+    width: 100%;
+}
+}
+
+
+ .btn:hover{
+    color: #4AAB3D;
+    background-color: #fff;
+} 
+
+header ul .nav-item a:hover,
+header ul .nav-item a.active{
+    color: #4AAB3D;
+    
+}
+.nav-link{
+    color: #000;
+}
+
+ul li:hover ul.dropdown-menu{
+    display: block;
+}
+ #btn2:hover{
+    background-color:  #4AAB3D;
+    color: #fff;
+ }
