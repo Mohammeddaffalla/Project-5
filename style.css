@@ -194,6 +194,11 @@ margin-top: 60px;
 header .container-fluid{
         display: none;
     }
+    #btnn{
+padding: 6px 50px;
+width: 200px;
+margin: auto;
+}
 }
 
 @media(max-width:768px){
@@ -245,3 +250,4 @@ ul li:hover ul.dropdown-menu{
     background-color:  #4AAB3D;
     color: #fff;
  }
+
